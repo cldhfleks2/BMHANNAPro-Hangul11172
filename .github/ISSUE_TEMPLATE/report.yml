@@ -1,0 +1,12 @@
+name: 문의 / 문제 신고
+description: 글자가 안 보이거나, 이상하거나, 궁금한 점이 있으면 무엇이든 적어주세요.
+labels: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 설명
+      description: 자유롭게 적어주세요. (예: "메모장에서 '쫒'이 이상하게 보여요", "설치가 안 돼요") 스크린샷을 붙여넣으면 더 좋습니다.
+      placeholder: 어떤 글자가, 어떤 프로그램에서, 어떻게 보이는지 적어주세요.
+    validations:
+      required: true

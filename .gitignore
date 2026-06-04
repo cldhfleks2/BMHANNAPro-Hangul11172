@@ -1,0 +1,11 @@
+# 작업 중간산출물 (공개 불필요)
+.venv/
+sheets/
+output/
+*.pkl
+*.json
+!regression_suite.json
+*.png
+!showcase_final.png
+BMHANNAPro_official.otf
+__pycache__/
